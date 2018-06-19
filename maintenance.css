@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+.maintenance{
+    font-size: 20px;
+    background-color: bisque;
+    width: 450px;
+    height:600px;
+}
+.maintenance form{
+    width: 360px;
+    position: relative;
+    padding: 5px 0 0;;
+    margin-right: 10px;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    line-height: normal;
+ 
+}
+.button {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: ghostwhite;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+
+input[type=text]{
+font-size: 20px;
+padding:10px;
+}

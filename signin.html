@@ -3,44 +3,27 @@
 <head>
 <title> Maintenance tracker</title>
 <link rel="stylesheet" href="signin.css">
-</head>
 <body>
 
-<h1>Sign in </h1>
+<header>
+    <nav>
+      <div class= "menu">
+        <ul>
+          <li><a href="signin.html">Home</a></li>
+        </ul>
+      </div>
+        <div class = "login"> 
+            <form>
+                <input type="text" name="user" placeholder="Username/Email">
+                <input type="text" name="password" placeholder="password">
+                <button type="submit" name="Submit">Login</button>
 
-<form action="/action_page.php">
-   User name:<br>
-    <input type="text" name="firstname" value=""><br>
-    Password:<br>
-    <input type="text" password="password" value=""><br><br>
-    <input type="submit" value="Submit">
-  </form> <br><br><br>
-  <p>
-      Forgot password? Request reset link to your mail here
-  </p>
-  <p>
-    New user? Sign up here!!
-</p>
-
-<form action="/action_page.php">
-   First name:<br>
-    <input type="text" name="firstname" value=""><br>
-   Second name:<br>
-    <input type="text" password="password" value=""><br><br>
-   Email:<br>
-    <input type="text" name="firstname" value=""><br>
-    Password:<br>
-    <input type="text" password="password" value=""><br><br>
-    confirm password:<br>
-     <input type="text" name="firstname" value=""><br>
-     Department:<br>
-     <form>
-        <input type="radio" name="department" value="Development" checked> Development<br>
-        <input type="radio" name="department" value="HR"> HR<br>
-        <input type="radio" name="department" value="IT"> IT
-      </form>    
-       <input type="submit" value="Submit">
-</form>
-
+            </form> <br>
+            <a href="password reset.html">Forgot password?</a>
+            <a href="signup.html">Sign up here</a>
+        </div>
+    </nav>
+       
+</header>
 </body>
 </html>

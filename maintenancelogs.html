@@ -2,34 +2,27 @@
 <html>
     <head>
             <title>Logs</title>
+            <link rel="stylesheet" href="maintenance.css">
     </head>
 
     <body>
-            <h1>Reach out to operations. Log your request here!
-                </h1 >
+            <h1>Reach out to operations. Log your request here! </h1>
                 <!--this is a form where user repair/maintenance details are captured-->
-                <div> Please fill out this form <br>
-                   
-                       <form >
+                <div class="maintenance" > Please fill out this form <br>
+                       <form>
                         Category:<br>
-                           <input type="radio" name="category" value="maintenance" checked> Maintenance<br>
-                           <input type="radio" name="category" value="repair"> Repair<br>
-                           <input type="radio" name="category" value="other"> Other<br>
+                           <input class ="checkbox" type="checkbox" name="category" value="maintenance" checked> Maintenance<br>
+                           <input class ="checkbox" type="checkbox" name="category" value="repair"> Repair<br>
+                           <input class ="checkbox" type="checkbox" name="category" value="other"> Other<br>
                     
                         Urgency:<br>
-                              <input type="radio" name="urgency" value="High" checked>High<br>
-                              <input type="radio" name="urgency" value="Moderate"> Moderate<br>
-                              <input type="radio" name="urgency" value="Low"> Low<br>
-
-                              Details:<br>
-                              <input type="text" name="details" value=""><br>
-                              Floor/level:<br>
-                              <input type="text" name="Floor/level" value=""><br>
-                              Office number: <br>
-                              <input type="text" name ="office number" value=""><br></br>
-                              <input type="submit" value="Submit">
-
-                            
+                              <input class ="checkbox" type="checkbox" name="urgency" value="High" checked>High<br>
+                              <input class ="checkbox" type="checkbox" name="urgency" value="Moderate"> Moderate<br>
+                              <input class ="checkbox" type="checkbox" name="urgency" value="Low"> Low<br>
+                              Floor/level:<input type="text" name="Floor/level" value=""><br><br>
+                              Office No.:<input type="text" name ="office number" value=""><br>
+                              Details:<br><textarea placeholder="Elaborate your issue/query here" cols="50" rows="5"  ></textarea><br>
+                              <br><button class="button" type="submit" name="Submit">Submit</button>
                        </form>
 
                 </div>  
