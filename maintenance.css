@@ -1,27 +1,38 @@
 body{
     background-color: gray;
+    background-image: linear-gradient(rgba(43, 43, 48, 0.5),gray), url("Maintenance.jpg");
+
+
 }
 .maintenance{
+    align-self: center;
     font-size: 20px;
-    background-color: bisque;
-    width: 450px;
-    height:600px;
+    background-color: rgba(82, 30, 202, 0.486);
+    width: 700px;
+    height:800px;
 }
 .maintenance form{
     width: 360px;
-    position: relative;
-    padding: 5px 0 0;;
-    margin-right: 10px;
-    border: none;
+    margin: 10px;
     font-family:'Times New Roman', Times, serif;
     font-size: 25px;
     color: black;
     line-height: normal;
  
 }
+.checkbox{
+    height: 25px;
+    width: 25px;
+    background-color: wheat;
+}
+.text{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+}
 .button {
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     outline: none;
@@ -31,8 +42,11 @@ body{
     border-radius: 10px;
     box-shadow: 0 9px #999;
   }
+  .button:active{
+    background-color: blue;  
+  }
 
-input[type=text]{
+.textarea{
 font-size: 20px;
 padding:10px;
 }

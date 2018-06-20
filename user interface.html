@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Login interface</title>
+        <link rel="stylesheet" href="user interface.css">
+    </head>
 <body>
+      
+        <div id="profile-container">
+                <img id="profileImage" src="dp.png" />
+             </div>
+<h1>Welcome user!!</h1>
+<div class="myrequests">
+        <button class="button" type="submit" name="Submit"><a href="maintenancelogs.html">Make requests</a></button>
+        <button onclick="myrequests()" class="button1">View my requests</button>
+        <p id="view"></p>
+        <script>
+                function myrequests() {
+                  document.getElementsById("view").innerHTML = "Loading...";
+                }
+                </script>
+                
+        
+</div>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
 
 </body>
 </html>
