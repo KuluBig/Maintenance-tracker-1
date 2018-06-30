@@ -2,6 +2,14 @@ body{
     background-color: gray;
     background-image: linear-gradient(rgba(43, 43, 48, 0.5),gray), url("smile.jpg");
 }
+@media screen and (max-width: 600px) {
+    .myrequests{
+        float: center;
+        color: blue;
+        font-size: 15p;
+        background-color:rgb(180, 196, 207);
+    }
+}
 
 /*https://stackoverflow.com/questions/41406509/add-a-profile-picture-in-form-in-html-and-css*/
 #profile-container {

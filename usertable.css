@@ -1,0 +1,32 @@
+@media screen and (max-width:75%){
+    .user {
+   font-weight: bold;
+   border: none;
+   clip: rect(0 0 0 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
+    }
+}
+.user{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-collapse: collapse;
+}
+.user td{
+    border: 1px;
+    padding: 5px;
+}
+.user th{
+    border: 1px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+.user tr{
+    background-color: antiquewhite;
+}

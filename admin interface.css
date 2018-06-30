@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(89, 117, 150);
+}
+.user{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    }
+    .user td{
+        border: 1px;
+        padding: 5px;
+    }
+    .user th{
+        border: 1px;
+        padding: 5px;
+        background-color: cornflowerblue;
+        text-align: left;
+        color: black;
+        font-weight: bold;
+    }
+    .user tr{
+        background-color: antiquewhite;
+    }
+    @media screen and (max-width:100%){
+        .table{
+            width: 100%;
+        }
+    }

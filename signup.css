@@ -33,5 +33,18 @@ input[type=text]{
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
+  @media screen and (max-width:70%){
+    .sign-up form{
+        float: left;
+        margin-right: 10px;
+        border: none;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 20px;
+        color:ghostwhite;
+        line-height: normal;
+        padding:15px;
+  }
+}
+
   
       

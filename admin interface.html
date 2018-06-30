@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="admin interface.css">
+    <title>Admin interface</title>
+</head>
+<body>
+    <h1>Repairs and maintenance admin</h1>
+   
+<p style="font-weight: bold">View requests by:
+        <select>
+            <option value="Date">Date</option>
+            <option value="Category"> Category</option>
+            <option value="Approved">Approval</option>
+            <option value="Status">Status</option>
+            <option value="Urgency">Urgency</option>
+        </select>
+</p>
+<div class="table">
+  <table style="width:100%" class="user">
+        <tr>
+         <th>Date</th>
+         <th>User ID</th>
+          <th>Category</th> 
+          <th>Urgency</th>
+          <th>Floor/level</th> 
+          <th>Office No.</th>
+          <th>Details</th> 
+          <th>Status</th>
+          <th>Resolved!</th>
+
+        </tr>
+        <tr>
+          <td>12.06.18</td>
+          <td>A0012</td>
+          <td>Maintenance</td> 
+          <td>Moderate</td>
+          <td>2</td>
+          <td>03</td> 
+          <td>Refill tissue roll</td>
+          <td><select>
+                <option value="Status">Pending</option>
+                <option value="Status">Reject</option>
+                <option value="Status">Approve</option>
+            </select></td>
+          <td><input type="checkbox" name="Resolve"></td>
+      
+        </tr>
+        <tr>
+            <td>10.05.18</td>
+            <td>B0001</td>
+            <td>Repair</td> 
+            <td>High</td>
+            <td>3</td>
+            <td>05</td> 
+            <td>Leakage on roof</td>
+            <td><select>
+                    <option value="Status">Pending</option>
+                    <option value="Status">Reject</option>
+                    <option value="Status">Approve</option>
+                </select></td>
+            <td><input type="checkbox" name="Resolve"></td>
+        </tr>
+      </table>
+      <br><button class="button" type="submit" name="Submit">Save changes</button>
+</div>
+
+</body>
+</html>

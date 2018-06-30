@@ -5,10 +5,20 @@ body {
 background-color: gray;
 background-image: url("bg1.jpg")
 }
-header nav {
-    background-color: white;
+@media screen and (max-width: 414px) {
+    body {
+        font-size: 1.5em;
+    }
+    .login form input{
+        float: center;
+            width:200px;
+            height: 50px;
+            padding: 0px 40px;
+            margin-right: 10px;}
+     a{
+                font-size: 15px;
+        }
 }
-
 .login{
     float: right;
 }
